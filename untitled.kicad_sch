@@ -1,0 +1,1259 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c2ee4afe-2a3d-4b92-89a8-31c07153e4b6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HC86"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC86"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC86"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad 2-input XOR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL XOR2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC86_1_0"
+				(arc
+					(start -4.4196 3.81)
+					(mid -3.2033 0)
+					(end -4.4196 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC86_1_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC86_2_0"
+				(arc
+					(start -4.4196 3.81)
+					(mid -3.2033 0)
+					(end -4.4196 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC86_2_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC86_3_0"
+				(arc
+					(start -4.4196 3.81)
+					(mid -3.2033 0)
+					(end -4.4196 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC86_3_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC86_4_0"
+				(arc
+					(start -4.4196 3.81)
+					(mid -3.2033 0)
+					(end -4.4196 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC86_4_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC86_5_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC86_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0013ca44-ba7b-4332-9c9d-f014af77143b")
+	)
+	(wire
+		(pts
+			(xy 106.68 102.87) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0487e2-9601-412b-bfbf-165a738ddda7")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc95849-5cf9-4559-9c1c-be3e27652b23")
+	)
+	(hierarchical_label "OUTPUT_B"
+		(shape output)
+		(at 125.73 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "269fed87-a1a6-418e-9030-a7ec09ea57ab")
+	)
+	(hierarchical_label "IN_A_A"
+		(shape input)
+		(at 106.68 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57bcce21-355a-4cfc-ae3b-d2178e62f5fd")
+	)
+	(hierarchical_label "IN_B_A"
+		(shape input)
+		(at 106.68 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d04cf3b5-ee04-4e5f-8370-7807e949562e")
+	)
+	(symbol
+		(lib_id "74xx:74HC86")
+		(at 115.57 105.41 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089b8981-c931-443c-818b-62e1122fcc90")
+		(property "Reference" "U4"
+			(at 115.2652 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC86"
+			(at 115.2652 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC86"
+			(at 115.57 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad 2-input XOR"
+			(at 115.57 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "c20ad532-e1a9-4f8f-8e05-78fe957ead12")
+		)
+		(pin "4"
+			(uuid "7db0ba7c-c6a1-4a17-b99f-eebb7811210b")
+		)
+		(pin "3"
+			(uuid "93a40b8e-1bb6-4344-b4dc-4a65751e0c43")
+		)
+		(pin "2"
+			(uuid "7bd9eedf-2a1a-4188-aa23-f11ee6d7a035")
+		)
+		(pin "1"
+			(uuid "4d2f6f1a-8934-4f6a-a22f-df542cef00c1")
+		)
+		(pin "13"
+			(uuid "14055f56-2263-424d-956e-a845e728fb55")
+		)
+		(pin "7"
+			(uuid "d2d9e8d9-ae50-4a21-b78f-4d84a3abc577")
+		)
+		(pin "14"
+			(uuid "c5155f77-8c25-4aad-b217-6dd22720a588")
+		)
+		(pin "8"
+			(uuid "aecfb772-7323-4559-9e22-413e7a0019f6")
+		)
+		(pin "6"
+			(uuid "9dffdb85-16b6-4e35-afa7-789b793c2f2a")
+		)
+		(pin "11"
+			(uuid "3c0096a1-b6ac-4e26-8655-63fb25ac9721")
+		)
+		(pin "10"
+			(uuid "b158d0c3-57ca-484d-b2a6-d449d981c2ef")
+		)
+		(pin "9"
+			(uuid "131413a3-5325-4e38-ae7f-d1ac93aa8e65")
+		)
+		(pin "12"
+			(uuid "cb72a25b-8bd5-4c53-893e-efd6ee7f33d8")
+		)
+		(instances
+			(project "calc"
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/01df3f2e-2c9b-42b5-b908-8852116e1757/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U13")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/01df3f2e-2c9b-42b5-b908-8852116e1757/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U14")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0330a43e-358c-4e7d-aac9-4a99f938a519/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U1")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0330a43e-358c-4e7d-aac9-4a99f938a519/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0680e26d-55c5-494b-88da-b4acf0db13e2/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U40")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0680e26d-55c5-494b-88da-b4acf0db13e2/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U39")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0e7241ea-abef-4748-aba4-45b3795255c9/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U16")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0e7241ea-abef-4748-aba4-45b3795255c9/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0ef22692-4296-4670-8116-d8706fcdabf5/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U12")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0ef22692-4296-4670-8116-d8706fcdabf5/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0fb3ec02-7bce-47e6-aec1-12d436ae28b2/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U1")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/0fb3ec02-7bce-47e6-aec1-12d436ae28b2/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U1")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/122a8d2c-cc69-4a51-93e9-c0efd0a73003/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U11")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/122a8d2c-cc69-4a51-93e9-c0efd0a73003/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U12")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/14dde9cf-48f8-42f1-9a64-90647b4e8545/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U38")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/14dde9cf-48f8-42f1-9a64-90647b4e8545/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U40")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/3285ea04-676c-4412-bde9-74077787e6c7/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U19")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/3285ea04-676c-4412-bde9-74077787e6c7/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U30")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/49b6b008-f113-47fd-9296-940f3271dfa2/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U15")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/49b6b008-f113-47fd-9296-940f3271dfa2/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U16")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/56043183-2838-4625-ab2d-0f6a0e7c8815/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U2")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/56043183-2838-4625-ab2d-0f6a0e7c8815/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/59e771dc-3b40-4cf7-9d70-9a164bcb77f5/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U14")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/59e771dc-3b40-4cf7-9d70-9a164bcb77f5/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U15")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/5c480c25-8b7e-43c4-baa0-976e1e4df97f/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U16")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/5c480c25-8b7e-43c4-baa0-976e1e4df97f/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U17")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/66d175ba-8440-4c12-b09c-3a4ecfcf0085/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U4")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/66d175ba-8440-4c12-b09c-3a4ecfcf0085/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U10")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/68983844-9585-4073-af39-6759034bc523/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U39")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/68983844-9585-4073-af39-6759034bc523/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U41")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/6f0a8c11-1816-4ea2-995b-870ba9230ea8/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U12")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/6f0a8c11-1816-4ea2-995b-870ba9230ea8/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U13")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/7028986c-9004-4b82-9ca2-d95a371425b5/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U13")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/7028986c-9004-4b82-9ca2-d95a371425b5/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/7db69849-a71c-4136-aac3-e940ade6a946/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U2")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/7db69849-a71c-4136-aac3-e940ade6a946/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U2")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/884f3496-d402-429e-9d4b-ce86de614b12/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U4")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/884f3496-d402-429e-9d4b-ce86de614b12/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U4")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/88b424ed-720d-402f-a0d1-06e4d504849c/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U11")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/88b424ed-720d-402f-a0d1-06e4d504849c/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/8b0e12b0-93ef-4be2-804e-75544a11dc05/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U29")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/8b0e12b0-93ef-4be2-804e-75544a11dc05/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/8dd27ecb-e518-4df3-b416-60ada34f2d50/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U30")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/8dd27ecb-e518-4df3-b416-60ada34f2d50/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U29")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9b3cfaa0-2ba2-4e51-8655-2360ba743b5a/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U15")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9b3cfaa0-2ba2-4e51-8655-2360ba743b5a/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9fdf2cae-2b07-40c7-9231-6fd04d781e7d/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U3")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9fdf2cae-2b07-40c7-9231-6fd04d781e7d/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9ffb2c33-f77f-422a-a2df-67032f7153a1/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U41")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9ffb2c33-f77f-422a-a2df-67032f7153a1/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U40")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/a3c018d2-9133-4a14-a722-fd7a33615069/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U14")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/a3c018d2-9133-4a14-a722-fd7a33615069/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/a7503f41-f7e7-4dfa-abb0-9e44474faccd/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U3")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/a7503f41-f7e7-4dfa-abb0-9e44474faccd/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U3")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/bb8825ee-18c7-4ba5-b93a-0208e61e4ec6/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U10")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/bb8825ee-18c7-4ba5-b93a-0208e61e4ec6/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U11")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/bd6a8939-c802-400e-83fc-1dfafd5347b9/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U10")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/bd6a8939-c802-400e-83fc-1dfafd5347b9/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/cad9fa6e-478a-4bf8-9339-5f0a2444269b/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U19")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/cad9fa6e-478a-4bf8-9339-5f0a2444269b/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U19")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/d6ea0563-b586-4c0b-a80a-e305fed88794/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U17")
+					(unit 4)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/d6ea0563-b586-4c0b-a80a-e305fed88794/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U29")
+					(unit 3)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/f14dae5f-8495-44b4-9e74-f79af767db4a/7588d00d-b643-42f3-97a1-c0ddf0ab74d1/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U17")
+					(unit 2)
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/f14dae5f-8495-44b4-9e74-f79af767db4a/bd130222-5879-4de3-8296-ceebfb6d6e4d/6cd3e055-8f52-4910-a23f-2a7be01e6157"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

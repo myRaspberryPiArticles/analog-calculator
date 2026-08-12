@@ -1,0 +1,1799 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 0
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
+        },
+        "silk_line_width": 0.1,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.1,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.5
+        }
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "error",
+        "padstack": "warning",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "ground_pin_not_ground": "warning",
+      "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "calc.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "bus_aliases": {},
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "hop_over_size_choice": 0,
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "calc.kicad_sch",
+        "name": "Root",
+        "uuid": "43e6f3ed-0436-432c-97f0-d30a4f4230c3"
+      }
+    ],
+    "used_designators": "SW1-23,D1-28,C1-23,Q1-6,Q10-410,#PWR1-715,R1-306,U2-47",
+    "variants": []
+  },
+  "sheets": [
+    [
+      "43e6f3ed-0436-432c-97f0-d30a4f4230c3",
+      "Root"
+    ],
+    [
+      "f31bbafd-e960-4973-b1c8-da9370c15013",
+      "OR"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "226da4a8-1010-4aa0-937a-36b56e7bb065",
+      "OR1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "7fb0ed95-f88f-44d7-8fea-709be9965be8",
+      "OR2"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "884f3496-d402-429e-9d4b-ce86de614b12",
+      "FULL_ADDER"
+    ],
+    [
+      "cad9fa6e-478a-4bf8-9339-5f0a2444269b",
+      "FULL_ADDER23"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "a7503f41-f7e7-4dfa-abb0-9e44474faccd",
+      "FULL_ADDER1"
+    ],
+    [
+      "35340b11-a59a-4bf3-8151-c48f8260bc60",
+      "OR3"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "9fdf2cae-2b07-40c7-9231-6fd04d781e7d",
+      "FULL_ADDER2"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "7db69849-a71c-4136-aac3-e940ade6a946",
+      "FULL_ADDER3"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "56043183-2838-4625-ab2d-0f6a0e7c8815",
+      "FULL_ADDER4"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "0fb3ec02-7bce-47e6-aec1-12d436ae28b2",
+      "FULL_ADDER5"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "0330a43e-358c-4e7d-aac9-4a99f938a519",
+      "FULL_ADDER6"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "66d175ba-8440-4c12-b09c-3a4ecfcf0085",
+      "FULL_ADDER7"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "bd6a8939-c802-400e-83fc-1dfafd5347b9",
+      "FULL_ADDER8"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "bb8825ee-18c7-4ba5-b93a-0208e61e4ec6",
+      "FULL_ADDER9"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "88b424ed-720d-402f-a0d1-06e4d504849c",
+      "FULL_ADDER10"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "122a8d2c-cc69-4a51-93e9-c0efd0a73003",
+      "FULL_ADDER11"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "0ef22692-4296-4670-8116-d8706fcdabf5",
+      "FULL_ADDER12"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "6f0a8c11-1816-4ea2-995b-870ba9230ea8",
+      "FULL_ADDER13"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "7028986c-9004-4b82-9ca2-d95a371425b5",
+      "FULL_ADDER14"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "01df3f2e-2c9b-42b5-b908-8852116e1757",
+      "FULL_ADDER15"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "a3c018d2-9133-4a14-a722-fd7a33615069",
+      "FULL_ADDER16"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "59e771dc-3b40-4cf7-9d70-9a164bcb77f5",
+      "FULL_ADDER17"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "9b3cfaa0-2ba2-4e51-8655-2360ba743b5a",
+      "FULL_ADDER18"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "49b6b008-f113-47fd-9296-940f3271dfa2",
+      "FULL_ADDER19"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "0e7241ea-abef-4748-aba4-45b3795255c9",
+      "FULL_ADDER20"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "5c480c25-8b7e-43c4-baa0-976e1e4df97f",
+      "FULL_ADDER21"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "f14dae5f-8495-44b4-9e74-f79af767db4a",
+      "FULL_ADDER22"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "82992896-be15-4891-87f4-ada67e154012",
+      "AND11"
+    ],
+    [
+      "f7d5d45e-552a-448c-9ddd-0776ca1e2b2f",
+      "AND1"
+    ],
+    [
+      "1ba069c4-01cb-4ad8-93c2-47719bcba54b",
+      "AND2"
+    ],
+    [
+      "ea9f5db9-eb43-4c4e-8b5e-0a1078ca0363",
+      "AND3"
+    ],
+    [
+      "570f7ee2-2be4-484e-a2d8-7c8d7be13012",
+      "AND4"
+    ],
+    [
+      "4d747a09-e608-492c-8ace-d75dcdfbdcd5",
+      "not"
+    ],
+    [
+      "08890dca-7b93-4c1d-a394-59a24f4eec8c",
+      "not1"
+    ],
+    [
+      "7ea0b780-766d-4d65-98ac-802601e8e821",
+      "AND7"
+    ],
+    [
+      "f0824a78-7bd9-40e5-b7e5-d2b353137f6e",
+      "AND8"
+    ],
+    [
+      "8f23def8-a7f5-4125-9347-53197253f86d",
+      "AND9"
+    ],
+    [
+      "d1bf01de-2821-40b2-84f0-57f920c4024f",
+      "AND10"
+    ],
+    [
+      "d6ea0563-b586-4c0b-a80a-e305fed88794",
+      "FULL_ADDER24"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "8b0e12b0-93ef-4be2-804e-75544a11dc05",
+      "FULL_ADDER25"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "3285ea04-676c-4412-bde9-74077787e6c7",
+      "FULL_ADDER26"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "8dd27ecb-e518-4df3-b416-60ada34f2d50",
+      "FULL_ADDER27"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "c4b2cad1-1b35-4bdd-8d4e-cbcfac58409e",
+      "AND"
+    ],
+    [
+      "f271129d-b829-41c9-a613-cd43ddc59510",
+      "AND12"
+    ],
+    [
+      "f223ae17-b549-4b5e-a0fb-8e76a9ff3b3a",
+      "OR4"
+    ],
+    [
+      "cabc97e3-e3b9-4bad-9bf1-d6552e0a8fe0",
+      "OR7"
+    ],
+    [
+      "0da69585-6908-4877-a6d2-c1feb8501820",
+      "AND6"
+    ],
+    [
+      "bc7dcbef-4f64-4409-8de6-0dc53bdb134e",
+      "AND14"
+    ],
+    [
+      "14dde9cf-48f8-42f1-9a64-90647b4e8545",
+      "FULL_ADDER32"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "0680e26d-55c5-494b-88da-b4acf0db13e2",
+      "FULL_ADDER33"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "68983844-9585-4073-af39-6759034bc523",
+      "FULL_ADDER34"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "9ffb2c33-f77f-422a-a2df-67032f7153a1",
+      "FULL_ADDER35"
+    ],
+    [
+      "7588d00d-b643-42f3-97a1-c0ddf0ab74d1",
+      "HALF_ADDER1"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "bd130222-5879-4de3-8296-ceebfb6d6e4d",
+      "HALF_ADDER"
+    ],
+    [
+      "50cbc657-e5a2-4666-91bc-a6e793769987",
+      "AND"
+    ],
+    [
+      "6cd3e055-8f52-4910-a23f-2a7be01e6157",
+      "XOR_1_1"
+    ],
+    [
+      "ac20ccdb-89f9-498c-83fe-0080a70790a2",
+      "OR"
+    ],
+    [
+      "8f2a6e13-2eee-4e66-b093-824eddc29c31",
+      "OR6"
+    ],
+    [
+      "ce9a82a5-a2a4-4d1e-b013-eb216c84448e",
+      "OR9"
+    ]
+  ],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}

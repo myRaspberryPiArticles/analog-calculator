@@ -1,0 +1,14 @@
+Info: Processing symbol 'Q1:'.
+Info: Processing symbol 'Q2:'.
+Info: Processing symbol 'Q3:'.
+Info: Processing symbol 'Q4:'.
+Info: Processing symbol 'Q5:'.
+Info: Processing symbol 'Q6:'.
+Info: Processing symbol 'R1:'.
+Info: Processing symbol 'R2:'.
+Info: Processing symbol 'R3:'.
+Info: Processing symbol 'R4:'.
+Info: Processing symbol 'U1:'.
+
+
+Info: Total warnings: 0, errors: 0.
