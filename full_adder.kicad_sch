@@ -291,7 +291,7 @@
 		)
 		(pin "IN_A" input
 			(at 99.06 83.82 180)
-			(uuid "1413d1ac-8b8c-4145-aad6-d486ef51df49")
+			(uuid "5716210b-5ed6-4443-9a7f-2b0ec05c9303")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,7 @@
 		)
 		(pin "IN_B" input
 			(at 99.06 91.44 180)
-			(uuid "f17460c6-ac15-4de0-9881-7d54edf9ebc7")
+			(uuid "0734b9dc-b086-4629-accb-8aebc991e30c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +311,7 @@
 		)
 		(pin "OUTPUT_C" output
 			(at 114.3 88.9 0)
-			(uuid "010c066d-be82-4da5-839f-767c05915d48")
+			(uuid "ab870c0e-25a0-44a5-916f-94992c31bb92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +321,7 @@
 		)
 		(pin "OUTPUT_S" output
 			(at 114.3 86.36 0)
-			(uuid "3f55b42f-c305-46d6-80b6-82008eb1ed80")
+			(uuid "4cbfff5b-1d8e-4b6c-94d0-9522eb93ecd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,6 +427,18 @@
 				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9ffb2c33-f77f-422a-a2df-67032f7153a1"
 					(page "308")
 				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/98b51e2b-2bfb-450a-83a3-2f6155980de0"
+					(page "247")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/2018d020-0921-47db-b9c8-0d21a320d99c"
+					(page "256")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/2095fc3f-c336-4363-ad39-e222002fe6d0"
+					(page "264")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/50f7e053-f881-48f6-921c-e94d470ec824"
+					(page "272")
+				)
 			)
 		)
 	)
@@ -471,7 +483,7 @@
 		)
 		(pin "IN_A" input
 			(at 139.7 91.44 180)
-			(uuid "8bf46e40-848f-453d-9239-07dc6e0c7acc")
+			(uuid "96af21f9-5467-49b8-a9b9-40c3c040287f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +493,7 @@
 		)
 		(pin "IN_B" input
 			(at 139.7 96.52 180)
-			(uuid "f2a975ba-7177-442a-917d-8a1c6a8d7b2f")
+			(uuid "73797689-e6c4-457c-8438-f8622dae59d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +503,7 @@
 		)
 		(pin "OUTPUT" output
 			(at 152.4 93.98 0)
-			(uuid "7002a2a8-9f36-4958-aaef-b68c40c6cfff")
+			(uuid "1265b450-54d8-4b0e-827f-4002cb83d417")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,6 +609,18 @@
 				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9ffb2c33-f77f-422a-a2df-67032f7153a1"
 					(page "314")
 				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/98b51e2b-2bfb-450a-83a3-2f6155980de0"
+					(page "254")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/2018d020-0921-47db-b9c8-0d21a320d99c"
+					(page "262")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/2095fc3f-c336-4363-ad39-e222002fe6d0"
+					(page "270")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/50f7e053-f881-48f6-921c-e94d470ec824"
+					(page "278")
+				)
 			)
 		)
 	)
@@ -641,7 +665,7 @@
 		)
 		(pin "IN_A" input
 			(at 120.65 83.82 180)
-			(uuid "98e866bc-80a3-4510-8476-24716d05be75")
+			(uuid "e1662b76-8161-411f-ace3-2849e9176293")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +675,7 @@
 		)
 		(pin "IN_B" input
 			(at 120.65 91.44 180)
-			(uuid "dc867c58-d001-469e-910b-56770f3c4083")
+			(uuid "964a24e0-44c2-4926-b819-9a19ccb6856b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +685,7 @@
 		)
 		(pin "OUTPUT_C" output
 			(at 135.89 88.9 0)
-			(uuid "58305b80-b962-4992-a78b-cb2954f22a67")
+			(uuid "4bacf824-a16e-4c0e-84e6-d63d80e64a6a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +695,7 @@
 		)
 		(pin "OUTPUT_S" output
 			(at 135.89 86.36 0)
-			(uuid "ad9f389f-8b33-4975-b794-8cad4e4378a3")
+			(uuid "695ea137-7793-4355-a00a-db480e073a54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,6 +800,18 @@
 				)
 				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/9ffb2c33-f77f-422a-a2df-67032f7153a1"
 					(page "311")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/98b51e2b-2bfb-450a-83a3-2f6155980de0"
+					(page "251")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/2018d020-0921-47db-b9c8-0d21a320d99c"
+					(page "259")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/2095fc3f-c336-4363-ad39-e222002fe6d0"
+					(page "267")
+				)
+				(path "/43e6f3ed-0436-432c-97f0-d30a4f4230c3/50f7e053-f881-48f6-921c-e94d470ec824"
+					(page "275")
 				)
 			)
 		)
