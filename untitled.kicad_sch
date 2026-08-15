@@ -833,7 +833,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0013ca44-ba7b-4332-9c9d-f014af77143b")
+		(uuid "1af297ba-664b-4112-b88d-d495f36193fd")
 	)
 	(wire
 		(pts
@@ -920,7 +920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 115.57 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -954,10 +954,10 @@
 			)
 		)
 		(pin "5"
-			(uuid "c20ad532-e1a9-4f8f-8e05-78fe957ead12")
+			(uuid "589d1e78-22d5-400e-a545-d461efc7c08f")
 		)
 		(pin "4"
-			(uuid "7db0ba7c-c6a1-4a17-b99f-eebb7811210b")
+			(uuid "4dd63ce8-5f03-4b09-9f44-80c8d5e80599")
 		)
 		(pin "3"
 			(uuid "35869dae-f77b-4238-a085-a94e619e9896")
@@ -981,7 +981,7 @@
 			(uuid "aecfb772-7323-4559-9e22-413e7a0019f6")
 		)
 		(pin "6"
-			(uuid "9dffdb85-16b6-4e35-afa7-789b793c2f2a")
+			(uuid "979b8b4d-cba8-4c73-9e81-0bc6abb924ef")
 		)
 		(pin "11"
 			(uuid "3c0096a1-b6ac-4e26-8655-63fb25ac9721")

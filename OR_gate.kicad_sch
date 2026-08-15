@@ -939,36 +939,6 @@
 		)
 		(uuid "e4c49ab6-4a5c-4cde-a076-c4704e8c9263")
 	)
-	(label "INPUT"
-		(at 127 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66944e0b-0962-4e35-88a0-ce9e529751e3")
-	)
-	(label "INPUT"
-		(at 127 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f7ca227-2916-4327-be53-288649b28c2f")
-	)
-	(label "OUTPUT (OR)"
-		(at 157.48 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cde48f98-b6c7-4be4-9cb1-6e3c261e67c5")
-	)
 	(hierarchical_label "IN_A"
 		(shape input)
 		(at 119.38 97.79 180)
@@ -1069,7 +1039,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "24314b08-1035-4542-a78e-a132c7c8b53a")
+			(uuid "970301f5-d3c9-47b2-bc3d-4fe29e61436e")
 		)
 		(instances
 			(project "calc"
@@ -1327,7 +1297,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0126d3cd-c0ff-499f-ac34-d73de6c7e868")
+			(uuid "70b6b59a-88be-4b74-ad5d-4ad4c41751c3")
 		)
 		(instances
 			(project "calc"
@@ -1552,7 +1522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 136.652 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -1586,10 +1556,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0a18623-94c3-43db-84f3-3e189e834af0")
+			(uuid "6c649176-8974-4b3d-986f-1381e8f96ec9")
 		)
 		(pin "2"
-			(uuid "5527ccfe-0722-45c0-8093-a473b1e8baad")
+			(uuid "d740ab14-6da4-4a24-ad97-a729b55cd1a3")
 		)
 		(instances
 			(project "calc"
@@ -1813,7 +1783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 135.89 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1849,13 +1819,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "8be2ba19-bc66-4654-86de-f3788dccdece")
+			(uuid "dd4608ce-4789-4a7d-be6e-b18e5844dbc2")
 		)
 		(pin "2"
-			(uuid "77b22e4e-8b78-4c95-874c-23bb82fe4b42")
+			(uuid "acf57364-3a3b-4e03-9c76-b4f2baddd572")
 		)
 		(pin "3"
-			(uuid "ce04b50a-5054-4633-a661-2444d50bdbf6")
+			(uuid "65fd8118-3348-43d8-9f09-688665151222")
 		)
 		(instances
 			(project "calc"
@@ -2113,7 +2083,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3e96cac-78d9-4e4d-bd90-d7c68fee0705")
+			(uuid "bee73093-e7da-4153-8e05-45bba6a20e0c")
 		)
 		(instances
 			(project "calc"
@@ -2338,7 +2308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -2372,10 +2342,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "549700cb-6580-486d-8b22-3a381442a687")
+			(uuid "ee995024-6c17-4a26-a542-86344a1e448b")
 		)
 		(pin "2"
-			(uuid "f75f188f-976e-4eae-b39e-0b8895fd5d98")
+			(uuid "df2a7382-ca55-4cf6-9623-7150aa149069")
 		)
 		(instances
 			(project "calc"
@@ -2599,7 +2569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2635,13 +2605,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "8325f035-2793-4b1c-a160-3d70431d5209")
+			(uuid "b22b134d-2fdf-4e77-b952-aee8dc045c00")
 		)
 		(pin "2"
-			(uuid "a5d8ca72-1c65-4a7d-839f-323d5e477142")
+			(uuid "279c86d6-1902-498f-8886-b432763eaac8")
 		)
 		(pin "3"
-			(uuid "20c79a19-dd8d-4497-b0e9-634b48145d0d")
+			(uuid "eab3660f-6bd9-40dc-a82b-fdc826b10546")
 		)
 		(instances
 			(project "calc"
@@ -2866,7 +2836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 151.13 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2902,13 +2872,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "f32212c3-fd54-467c-a19e-26f94ae6425e")
+			(uuid "41b7098b-cef3-4e69-90e2-ac68121976a3")
 		)
 		(pin "2"
-			(uuid "8f90c0f6-9a5c-438d-87a8-85082038a91d")
+			(uuid "0ff49da3-bee7-4abb-9407-de8dc240137c")
 		)
 		(pin "3"
-			(uuid "485f50bf-5ae0-45e1-b7a9-6fe5587aa14f")
+			(uuid "50efd4d3-e87c-473c-8ee7-0068e6b3b16c")
 		)
 		(instances
 			(project "calc"
@@ -3166,7 +3136,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "371f1423-a723-4f6a-ad9b-04e2c65bae2a")
+			(uuid "cb279b17-4571-4ce4-b2cb-c244f86276a5")
 		)
 		(instances
 			(project "calc"

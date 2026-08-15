@@ -109,16 +109,6 @@
 	)
 	(wire
 		(pts
-			(xy 0.0762 0.0762) (xy 0.0762 7.6962)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef42182a-d5f2-4ceb-8b15-ed0e49da08af")
-	)
-	(wire
-		(pts
 			(xy 133.35 106.68) (xy 129.54 106.68)
 		)
 		(stroke
@@ -126,16 +116,6 @@
 			(type default)
 		)
 		(uuid "f9285b44-3885-44a0-9c52-fa094f55491b")
-	)
-	(wire
-		(pts
-			(xy 0.0762 7.6962) (xy 19.1262 7.6962)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde4642e-8175-4d31-9711-74065db43e36")
 	)
 	(hierarchical_label "IN_B"
 		(shape input)
@@ -222,7 +202,7 @@
 		)
 		(pin "IN_A" input
 			(at 133.35 106.68 180)
-			(uuid "5532999c-73cf-49ba-b2b7-de7c7c7a543e")
+			(uuid "ef528be1-59cd-48c7-be91-6b5711017518")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +212,7 @@
 		)
 		(pin "IN_B" input
 			(at 133.35 111.76 180)
-			(uuid "c341a6a3-68a9-41d9-9ee8-e3cd2c90250e")
+			(uuid "fa031387-b36c-4d30-96a6-8e5f3703cf20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +222,7 @@
 		)
 		(pin "OUTPUT" output
 			(at 146.05 109.22 0)
-			(uuid "e2177480-a947-4ed4-8713-0f4c9d67e4ae")
+			(uuid "18eb6ca2-afc6-4fba-88e5-e9b24c7459f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +492,7 @@
 		)
 		(pin "IN_A_A" input
 			(at 133.35 93.98 180)
-			(uuid "8e568e05-6a7e-499a-adb9-4b230451a6cb")
+			(uuid "b3d705d0-7c00-4d29-84f9-e565729f9fb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +502,7 @@
 		)
 		(pin "IN_B_A" input
 			(at 133.35 99.06 180)
-			(uuid "3dfb6751-0a3f-4227-aa39-094b2e34aa5a")
+			(uuid "24b1c5f1-5324-4afd-86d6-7aef093859b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +512,7 @@
 		)
 		(pin "OUTPUT_B" output
 			(at 146.05 96.52 0)
-			(uuid "41698f75-d902-4109-a5c3-fc2c1123475f")
+			(uuid "69d11a3a-87d2-4664-8e81-1e335178d935")
 			(effects
 				(font
 					(size 1.27 1.27)
